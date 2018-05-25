@@ -1,0 +1,19 @@
+DigiPay program.
+
+This program is written to simulate an online shopping application.
+
+As the problem was described, it needed to contain a database connection for managing this application's data, but a problem came up and I didn't have enough time to implement those parts of the program, so I wrote data down manually in the code.
+
+I have written, compiled and ran the codes with java 1.8.
+You need to compile 3 .java files with javac command. .class files are included too.
+
+For initializing the program, get a terminal in a linux environment and run DigiPay with java command, and without any arguments. After that, The program itself introduces you into its parts and tells you what to do step by step.
+
+You enter your information and order details and with adding every good to the order, total price and order details are updated.
+After submitting the order, the program will show you the order details and summary and total price.
+
+There are situations where program will not work correctly, like when you enter a "Not A Number" value in the good selection form; this bugs have been detected but there wasn't enough time to fix them.
+
+Yet obviously there are possibilities to improve the program, like it can remove requiring the user to hit enter after selecting the good; or like it could check the index that the user has entered, and if it wasn't in the list, ignores it; but again the time was against me and this code is the best thing I could offer in just two days.
+
+For more information refer to the code, most of the functions have a short description before them, that says what this function will do.
